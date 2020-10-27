@@ -7,6 +7,25 @@
 </head>
 <body>
     <h1>Forma za manipulaciju sa API-em</h1>
-    <form action=""></form>
+    
+    <form action="">
+        <div id="odabir_tabele">
+            <input type="radio" name="odabir_tabele" id="radio_kategorija" value="kategorija">
+            <label for="radio_kategorija">Kategorija</label>
+            <input type="radio" name="odabir_tabele" id="radio_novosti" value="novosti">
+            <label for="radio_novosti">Novosti</label>
+        </div>
+
+        <div>
+            <input type="radio" name="http_zahtev" id="get" value="get">
+            <label for="get">GET</label> 
+            <input type="radio" name="http_zahtev" id="post" value="post">
+            <label for="post">POST</label> 
+            <input type="radio" name="http_zahtev" id="put" value="put">
+            <label for="put">PUT</label> 
+            <input type="radio" name="http_zahtev" id="delete" value="delete">
+            <label for="delete">DELETE</label> 
+        </div>
+    </form>
 </body>
 </html>
